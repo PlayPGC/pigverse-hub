@@ -1,0 +1,20 @@
+{
+  "name": "sharpnews",
+  "version": "1.0.0",
+  "description": "miniapp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://tmc-gitlab.trasre.com/miniapp-business-projects/sharpnews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  }
+}
