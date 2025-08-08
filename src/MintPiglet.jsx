@@ -1,7 +1,6 @@
-
 import React, { useState } from "react";
 
-export const MintPiglet = () => {
+const MintPiglet = () => {
   const [minted, setMinted] = useState(false);
 
   const handleMint = () => {
@@ -18,8 +17,12 @@ export const MintPiglet = () => {
           Mint Piglet NFT
         </button>
       ) : (
-        <p className="text-pink-700 font-semibold mt-2">🐖 Piglet Minted Successfully!</p>
+        <p className="text-pink-700 font-semibold mt-2">
+          🐷 Piglet Minted Successfully!
+        </p>
       )}
     </div>
   );
 };
+
+export default MintPiglet;
