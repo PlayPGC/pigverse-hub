@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const ConnectWallet = () => {
+const ConnectWallet = () => {
   const [walletConnected, setWalletConnected] = useState(false);
 
   const handleConnect = () => {
@@ -12,7 +12,7 @@ export const ConnectWallet = () => {
       {!walletConnected ? (
         <button
           onClick={handleConnect}
-          className="bg-green-600 text-white px-4 py-2 rounded"
+          className="bg-green-600 text-white"
         >
           Connect Wallet
         </button>
@@ -23,4 +23,4 @@ export const ConnectWallet = () => {
   );
 };
 
-export default ConnectWallet; // ✅ Add this line
+export default ConnectWallet;
