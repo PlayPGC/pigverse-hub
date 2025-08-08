@@ -12,12 +12,12 @@ const ConnectWallet = () => {
       {!walletConnected ? (
         <button
           onClick={handleConnect}
-          className="bg-green-600 text-white"
+          className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
         >
           Connect Wallet
         </button>
       ) : (
-        <p className="text-green-700 font-semibold">Wallet Connected</p>
+        <p className="text-green-700 font-semibold">✅ Wallet Connected</p>
       )}
     </div>
   );
