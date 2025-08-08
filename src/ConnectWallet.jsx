@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 export const ConnectWallet = () => {
@@ -13,13 +12,15 @@ export const ConnectWallet = () => {
       {!walletConnected ? (
         <button
           onClick={handleConnect}
-          className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+          className="bg-green-600 text-white px-4 py-2 rounded"
         >
           Connect Wallet
         </button>
       ) : (
-        <p className="text-green-700 font-semibold">Wallet Connected ✅</p>
+        <p className="text-green-700 font-semibold">Wallet Connected</p>
       )}
     </div>
   );
 };
+
+export default ConnectWallet; // ✅ Add this line
