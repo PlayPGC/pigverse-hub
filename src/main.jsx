@@ -5,11 +5,10 @@ import ConnectWallet from './ConnectWallet.jsx'
 import MintPiglet from './MintPiglet.jsx'
 import './index.css'
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ConnectWallet />
     <App />
+    <ConnectWallet />
     <MintPiglet />
-  </React.StrictMode>
+  </React.StrictMode>,
 )
