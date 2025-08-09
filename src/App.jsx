@@ -1,6 +1,7 @@
 import React from "react";
 import ConnectWallet from "./ConnectWallet";
 import MintPiglet from "./MintPiglet";
+import ProofBadge from "./ProofBadge"; // ⬅️ add this
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
         <ConnectWallet />
         <MintPiglet />
       </div>
+
+      {/* Proof of Ownership section */}
+      <ProofBadge />
     </div>
   );
 }
